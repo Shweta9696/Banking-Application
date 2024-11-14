@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking Services</title>
+    <style>
+        /* Styling the body and centering content */
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(45deg, #f5a623, #f78da7, #50c9c3, #81c784);
+            font-family: Arial, sans-serif;
+        }
+
+        /* Container styling */
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Header styling */
+        .container h1 {
+            font-size: 2em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        /* Anchor tag styled as buttons */
+        .button {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px 25px;
+            font-size: 1em;
+            font-weight: bold;
+            text-decoration: none;
+            color: #fff;
+            background-color: #007bff;
+            border-radius: 8px;
+            transition: 0.3s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Different colors for each button */
+        .create { background-color: #4caf50; }
+        .balance { background-color: #ff9800; }
+        .deposit { background-color: #2196f3; }
+        .withdraw { background-color: #f44336; }
+        .transfer { background-color: #9c27b0; }
+        .close { background-color: #795548; }
+        .about { background-color: #607d8b; }
+
+        /* Hover effect */
+        .button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Banking Services</h1>
+        <a href="account.html" class="button create">Create Account</a>
+        <a href="Balance.html" class="button balance">Balance</a>
+        <a href="Deposit.html" class="button deposit">Deposit</a>
+        <a href="#withdraw" class="button withdraw">Withdraw</a>
+        <a href="transfer.html" class="button transfer">Transfer Money</a>
+        <a href="#close-account" class="button close">Close Account</a>
+        <a href="#about-us" class="button about">About Us</a>
+    </div>
+</body>
+</html>
